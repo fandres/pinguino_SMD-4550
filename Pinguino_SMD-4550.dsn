@@ -361,7 +361,8 @@
   )
   (network
     (net GND
-      (pins C1-1 C2-1 C4-1 P3-1 P5-1 R3-2 SW1-2 U1-6 U1-29 P38-1 C5-2)
+      (pins C1-1 C2-1 C3-1 C4-1 P1-5 P1-6 P1-6@1 P1-6@2 P1-6@3 P3-1 P5-1 R3-2 SW1-2
+        U1-6 U1-29 P38-1 C5-2)
     )
     (net /OSC0
       (pins C1-2 U1-31 Y1-2)
@@ -370,10 +371,7 @@
       (pins C2-2 U1-30 Y1-1)
     )
     (net VCC
-      (pins C3-1 D1-2 D2-2 P1-1 P2-1 P4-1 R2-1 U1-7 C5-1)
-    )
-    (net "Net-(C3-Pad2)"
-      (pins C3-2 U1-28)
+      (pins C3-2 D1-2 D2-2 P1-1 P2-1 P4-1 R2-1 U1-7 U1-28 C5-1)
     )
     (net /VUSB
       (pins C4-2 U1-37)
@@ -389,9 +387,6 @@
     )
     (net /D+
       (pins P1-3 U1-43)
-    )
-    (net "Net-(P1-Pad5)"
-      (pins P1-5 P1-6 P1-6@1 P1-6@2 P1-6@3)
     )
     (net /PIN0/SDA
       (pins U1-8 P6-1)
@@ -500,7 +495,7 @@
       /PIN14/A1 /PIN15/A2 /PIN16/A3 /PIN17/A4 /PIN18/A5 /PIN19/A6 /PIN2 /PIN20/A7
       /PIN21 /PIN22 /PIN23 /PIN24 /PIN25 /PIN26 /PIN27 /PIN28 /PIN3 /PIN4
       /PIN5 /PIN6 /PIN7 /PIN8/TX /PIN9/RX /RA4 /VUSB GND "Net-(C3-Pad2)" "Net-(D1-Pad1)"
-      "Net-(D2-Pad1)" "Net-(P1-Pad5)" VCC
+      "Net-(D2-Pad1)" "Net-(P1-Pad4)" "Net-(P1-Pad5)" "Net-(U1-Pad34)" VCC
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -520,6 +515,5 @@
     )
   )
   (wiring
-    (wire (path B.Cu 381  85300 -63200  85300 -63170.3)(net /PIN25)(type protect))
   )
 )

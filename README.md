@@ -10,7 +10,7 @@ PCB in surface mount of the Pinguino board based on the microcontroller PIC18F45
 ![PCB_Pinguino_SMD-4550](/images/PCB_Kicad.png)
 
 ## BOM 
-Reference | Qty | Value | Footprint | | Package
+Reference | Qty | Value | Footprint | Package
 ----- | ---------- | -------- | -------- | --------
 C1 C2  | 2 | 22uF | Capacitors_SMD:C_1206 | 1206
 C4  | 1 | 220nF | Capacitors_SMD:C_1206 | 1206
@@ -27,4 +27,4 @@ U1  | 1 | PIC18(L)F4550-I/PT | Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm | TQFP-44
 Y1  | 1 | Crystal | Crystal SMD:Crystal_SMD_5032_2Pads | 5032 2 Pads
 
 # In testing Mode
-OSHPARK
+<a href="https://oshpark.com/shared_projects/V5afBnrn"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>

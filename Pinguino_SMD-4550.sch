@@ -46,12 +46,12 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Pinguino_SMD-4550"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "1B"
+Comp "Rottdevel"
+Comment1 "Hakerspace"
+Comment2 "fAnDrEs"
 Comment3 ""
 Comment4 ""
 $EndDescr

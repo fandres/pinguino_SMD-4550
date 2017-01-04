@@ -3,7 +3,7 @@
   (general
     (links 69)
     (no_connects 0)
-    (area 52.960001 42.87 125.076372 73.7028)
+    (area 64.186999 47.422999 115.137001 72.592001)
     (thickness 1.6)
     (drawings 175)
     (tracks 349)
@@ -693,10 +693,10 @@
       (net 1 GND))
     (pad "" np_thru_hole circle (at 0.8509 -2.19964) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
     (pad "" np_thru_hole circle (at 0.8509 2.19964) (size 0.89916 0.89916) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-    (model conn_pc/usb_B_mini_smd.wrl
+    (model Connect.3dshapes/USB_Mini_B.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 -1350))
+      (rotate (xyz 0 0 0))
     )
   )
 

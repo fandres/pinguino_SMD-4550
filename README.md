@@ -10,7 +10,7 @@ Reference | Qty | Value | Footprint | Package
 C1 C2  | 2 | 22uF | Capacitors_SMD:C_1206 | 1206
 C4  | 1 | 220nF | Capacitors_SMD:C_1206 | 1206
 C3  | 1 | 100nF | Capacitors_SMD:C_1206 | 1206
-C5  | 1 | 10-100uF | Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Wave | B 3528
+C5  | 1 | 10-100uF | Capacitors_SMD:c_elec_6.3x5.3 | Capa-e 6x5
 D1  | 1 | Run_LED | LEDs:LED_1206 | 1206
 D2  | 1 | Power_LED | LEDs:LED_1206 | 1206
 P1  | 1 | uUSB | Connect:USB_Mini-B | USB Female mini B 

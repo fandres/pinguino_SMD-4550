@@ -29,6 +29,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_vacuum
 LIBS:microchip_pic18mcu
 LIBS:Pinguino_SMD-4550-cache
 EELAYER 25 0
@@ -413,7 +424,7 @@ U 1 1 58466D26
 P 9150 1900
 F 0 "C5" H 9175 2000 50  0000 L CNN
 F 1 "10-100uF" V 9050 1750 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_6.3x5.3" H 9188 1750 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Wave" H 9188 1750 50  0001 C CNN
 F 3 "" H 9150 1900 50  0000 C CNN
 	1    9150 1900
 	1    0    0    -1  

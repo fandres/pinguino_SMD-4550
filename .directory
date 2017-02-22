@@ -1,2 +1,7 @@
 [Desktop Entry]
 Icon=folder-violet
+
+[Dolphin]
+PreviewsShown=true
+Timestamp=2017,1,23,19,22,35
+Version=3

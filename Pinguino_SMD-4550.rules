@@ -1,0 +1,119 @@
+
+(rules PCB Pinguino_SMD-4550
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 646)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 254.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 305.0 (type default_Power))
+    (clear 63.6 (type smd_smd))
+    (clear 305.0 (type smd_Power))
+    (clear 305.0 (type "kicad_default"_Power))
+    (clear 305.0 (type Power_Power))
+  )
+  (padstack "Via[0-1]_660.4:406.4_um"
+    (shape
+      (circle F.Cu 660.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 660.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-1]_762:508_um"
+    (shape
+      (circle F.Cu 762.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 762.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_660.4:406.4_um" "Via[0-1]_660.4:406.4_um" default
+  )
+  (via 
+    "Via[0-1]_762:508_um" "Via[0-1]_762:508_um" default
+  )
+  (via 
+    "Via[0-1]_660.4:406.4_um-kicad_default" "Via[0-1]_660.4:406.4_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_762:508_um-kicad_default" "Via[0-1]_762:508_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_660.4:406.4_um-Power" "Via[0-1]_660.4:406.4_um" Power
+  )
+  (via 
+    "Via[0-1]_762:508_um-Power" "Via[0-1]_762:508_um" Power
+  )
+  (via_rule
+    default "Via[0-1]_660.4:406.4_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_660.4:406.4_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_762:508_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND /OSC0 /OSC1 VCC /VUSB "Net-(D1-Pad1)" "Net-(D2-Pad1)" "/D-"
+    /D+ /PIN0/SDA /PIN1/SCL /PIN15/A2 /PIN2 /PIN16/A3 /PIN3 /PIN17/A4
+    /PIN4 /PIN18/A5 /PIN5 /PIN19/A6 /PIN6 /PIN20/A7 /PIN7 /PIN21
+    /PIN8/TX /PIN22 /PIN9/RX /PIN23 /PIN10 /PIN24 /PIN11/PWM /PIN25
+    /PIN12/PWM /PIN26 /PIN13/A0 /PIN27 /PIN14/A1 /PIN28 "/ICSP-VPP" "/ICSP_PGD"
+    "/ICSP_PGC" /RA4 /MCLR /ICPORTS
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 304.8)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

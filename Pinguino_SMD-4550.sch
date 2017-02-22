@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Pinguino_SMD-4550"
 Date ""
-Rev "1B"
+Rev "2.0"
 Comp "Rottdevel"
 Comment1 "Hakerspace"
 Comment2 "fAnDrEs"

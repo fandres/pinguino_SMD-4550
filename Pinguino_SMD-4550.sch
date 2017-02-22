@@ -626,9 +626,8 @@ Text Label 2900 3500 2    60   ~ 0
 ICSP_PGC
 Text Label 2900 3600 2    60   ~ 0
 ICSP_PGD
-NoConn ~ 3150 3700
 Wire Wire Line
-	3250 3700 3150 3700
+	2900 3700 3250 3700
 $Comp
 L CONN_01X01 P6
 U 1 1 584899DB
@@ -1237,24 +1236,13 @@ $EndComp
 $Comp
 L CONN_01X01 P39
 U 1 1 58ACEDE8
-P 700 5950
-F 0 "P39" H 700 6050 50  0000 C CNN
-F 1 "CONN_01X01" V 800 5950 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 700 5950 50  0001 C CNN
-F 3 "" H 700 5950 50  0000 C CNN
-	1    700  5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR1
-U 1 1 58ACEE68
-P 700 6250
-F 0 "#PWR1" H 700 6000 50  0001 C CNN
-F 1 "GND" H 700 6100 50  0000 C CNN
-F 2 "" H 700 6250 50  0000 C CNN
-F 3 "" H 700 6250 50  0000 C CNN
-	1    700  6250
-	1    0    0    -1  
+P 4900 6200
+F 0 "P39" H 4900 6300 50  0000 C CNN
+F 1 "CONN_01X01" V 5000 6200 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01" H 4900 6200 50  0001 C CNN
+F 3 "" H 4900 6200 50  0000 C CNN
+	1    4900 6200
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR2
@@ -1267,8 +1255,6 @@ F 3 "" H 900 6250 50  0000 C CNN
 	1    900  6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	700  6150 700  6250
 Wire Wire Line
 	900  6150 900  6250
 $Comp
@@ -1295,4 +1281,8 @@ F 3 "" H 950 5300 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	950  5300 950  5400
+Text Label 2900 3700 2    60   ~ 0
+ICPORTS
+Text Label 5100 6200 0    60   ~ 0
+ICPORTS
 $EndSCHEMATC

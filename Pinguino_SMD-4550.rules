@@ -11,80 +11,80 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1723)
+    (start_pass_no 294642)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.0)
+      (against_preferred_direction_trace_costs 2.0)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.5)
+      (against_preferred_direction_trace_costs 2.0)
     )
   )
   (rule
-    (width 304.8)
-    (clear 305.0)
-    (clear 152.4 (type smd_to_turn_gap))
-    (clear 432.0 (type default_Power))
-    (clear 76.2 (type smd_smd))
-    (clear 432.0 (type smd_Power))
-    (clear 432.0 (type "kicad_default"_Power))
-    (clear 432.0 (type Power_Power))
+    (width 254.0)
+    (clear 254.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 305.0 (type default_Power))
+    (clear 63.6 (type smd_smd))
+    (clear 305.0 (type smd_Power))
+    (clear 305.0 (type "kicad_default"_Power))
+    (clear 305.0 (type Power_Power))
   )
-  (padstack "Via[0-1]_889:635_um"
+  (padstack "Via[0-1]_660.4:406.4_um"
     (shape
-      (circle F.Cu 889.0 0.0 0.0)
+      (circle F.Cu 660.4 0.0 0.0)
     )
     (shape
-      (circle B.Cu 889.0 0.0 0.0)
-    )
-    (attach off)
-  )
-  (padstack "Via[0-1]_1397:1016_um"
-    (shape
-      (circle F.Cu 1397.0 0.0 0.0)
-    )
-    (shape
-      (circle B.Cu 1397.0 0.0 0.0)
+      (circle B.Cu 660.4 0.0 0.0)
     )
     (attach off)
   )
-  (via 
-    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  (padstack "Via[0-1]_762:508_um"
+    (shape
+      (circle F.Cu 762.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 762.0 0.0 0.0)
+    )
+    (attach off)
   )
   (via 
-    "Via[0-1]_1397:1016_um" "Via[0-1]_1397:1016_um" default
+    "Via[0-1]_660.4:406.4_um" "Via[0-1]_660.4:406.4_um" default
   )
   (via 
-    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+    "Via[0-1]_762:508_um" "Via[0-1]_762:508_um" default
   )
   (via 
-    "Via[0-1]_1397:1016_um-kicad_default" "Via[0-1]_1397:1016_um" "kicad_default"
+    "Via[0-1]_660.4:406.4_um-kicad_default" "Via[0-1]_660.4:406.4_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_889:635_um-Power" "Via[0-1]_889:635_um" Power
+    "Via[0-1]_762:508_um-kicad_default" "Via[0-1]_762:508_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_1397:1016_um-Power" "Via[0-1]_1397:1016_um" Power
+    "Via[0-1]_660.4:406.4_um-Power" "Via[0-1]_660.4:406.4_um" Power
+  )
+  (via 
+    "Via[0-1]_762:508_um-Power" "Via[0-1]_762:508_um" Power
   )
   (via_rule
-    default "Via[0-1]_889:635_um"
+    default "Via[0-1]_660.4:406.4_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+    "kicad_default" "Via[0-1]_660.4:406.4_um-kicad_default"
   )
   (via_rule
-    Power "Via[0-1]_1397:1016_um-Power"
+    Power "Via[0-1]_762:508_um-Power"
   )
   (class default
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 304.8)
+      (width 254.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -100,7 +100,7 @@
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 304.8)
+      (width 254.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
@@ -110,7 +110,7 @@
     (clearance_class Power)
     (via_rule Power)
     (rule
-      (width 431.8)
+      (width 304.8)
     )
     (circuit 
       (use_layer F.Cu B.Cu)

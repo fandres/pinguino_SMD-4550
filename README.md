@@ -2,7 +2,6 @@
 
 PCB in surface mount of the Pinguino board based on the microcontroller PIC18F4550 
 
-![Pinguino_SMD-4550](/images/Pinguino_SMD-4550.jpg)
 
 ## BOM 
 Reference | Qty | Value | Footprint | Package
@@ -29,10 +28,7 @@ Y1  | 1 | Crystal | Crystal SMD:Crystal_SMD_5032_2Pads | 5032 2 Pads
 http://pinguino.cc/download.php
 
 # Images
-![3DF_Pinguino_SMD-4550](/images/3D_View-F.png)
-![3DB_Pinguino_SMD-4550](/images/3D_View-B.png)
-![PCB_Pinguino_SMD-4550](/images/PCB_Kicad.png)
-![Cape_Pinguino_SMD-2550](/images/case-Pinguino_SMD-4550.png)
+
 
 # Attributions
 ============

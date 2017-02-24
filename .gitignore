@@ -1,0 +1,6 @@
+#Linux directory
+.directory
+# KiCad files 
+insoladora_v1.bak 
+# Backup Freecad files
+*.fcstd1

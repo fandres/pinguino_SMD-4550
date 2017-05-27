@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 1
 Title "Pinguino_SMD-4550"
 Date ""
-Rev "2.0"
+Rev "2.1"
 Comp "Rottdevel"
 Comment1 "Hakerspace"
 Comment2 "fAnDrEs"
@@ -153,7 +153,7 @@ L C C1
 U 1 1 584608E4
 P 1600 2050
 F 0 "C1" H 1625 2150 50  0000 L CNN
-F 1 "22uF" V 1750 1900 50  0000 L CNN
+F 1 "22pF" V 1750 1900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1638 1900 50  0001 C CNN
 F 3 "" H 1600 2050 50  0000 C CNN
 	1    1600 2050
@@ -164,7 +164,7 @@ L C C2
 U 1 1 58460937
 P 1600 2550
 F 0 "C2" H 1625 2650 50  0000 L CNN
-F 1 "22uF" V 1450 2500 50  0000 L CNN
+F 1 "22pF" V 1450 2500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1638 2400 50  0001 C CNN
 F 3 "" H 1600 2550 50  0000 C CNN
 	1    1600 2550
@@ -377,7 +377,7 @@ F 3 "" H 7050 2100 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	7100 2100 7050 2100
-Text Label 2900 2100 2    60   ~ 0
+Text Label 2900 2000 2    60   ~ 0
 RA4
 Wire Wire Line
 	3250 2100 2900 2100
@@ -522,7 +522,7 @@ Text Label 2900 1800 2    60   ~ 0
 PIN15/A2
 Text Label 2900 1900 2    60   ~ 0
 PIN16/A3
-Text Label 2900 2000 2    60   ~ 0
+Text Label 2900 2100 2    60   ~ 0
 PIN17/A4
 Wire Wire Line
 	5650 3500 6050 3500

@@ -1,10 +1,7 @@
-# In testing Mode; Board in process of manufacture, see link OSHPARK
-<a href="https://oshpark.com/shared_projects/imBJZ7FM"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
-
-# Pinguino SMD 4550
+## Pinguino SMD 4550
 
 PCB in surface mount of the Pinguino board based on the microcontroller PIC18F4550 
-
+![Pinguino_SMD-4550](/images/Pinguino_SMD-4550.jpg)
 
 ## BOM 
 Reference | Qty | Value | Footprint | Package
@@ -24,12 +21,14 @@ U1  | 1 | PIC18(L)F4550-I/PT | Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm | TQFP-44
 Y1  | 1 | Crystal | Crystal SMD:Crystal_SMD_5032_2Pads | 5032 2 Pads
 
 ============
-# In testing Mode;  Board in process of manufacture, see link OSHPARK
+# Order from OSH Park, $5 x3 
 
-<a href="https://oshpark.com/shared_projects/imBJZ7FM"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
+<a href="https://oshpark.com/shared_projects/KjakyOM4"><img src="https://oshpark.com/assets/badge-5b7ec47045b78aef6eb9d83b3bac6b1920de805e9a0c227658eac6e19a045b9c.png" alt="Order from OSH Park"></img></a>
 
 # Pinguino IDE
+
 ============
+
 http://pinguino.cc/download.php
 
 # Images

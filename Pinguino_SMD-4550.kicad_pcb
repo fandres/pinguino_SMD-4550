@@ -3,7 +3,7 @@
   (general
     (links 72)
     (no_connects 0)
-    (area 76.124999 50.743375 101.675001 76.293377)
+    (area 72.331867 45.179 105.468134 81.2098)
     (thickness 1.6)
     (drawings 106)
     (tracks 348)
@@ -16,7 +16,7 @@
   (title_block
     (title "Pinguino 4550 SMD")
     (date 2016-12-21)
-    (rev 2.0)
+    (rev 2.1)
     (company Rootdevel)
     (comment 1 Hackerspace)
     (comment 2 fAnDrEs)

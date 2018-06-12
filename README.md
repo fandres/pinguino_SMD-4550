@@ -1,4 +1,11 @@
-## Pinguino SMD 4550
+This repository is possibly outdated
+Este Repositorio se probablemente se encuentra desactualizado
+
+Repository migrated to https://gitlab.com/fandres323/pinguino_SMD-4550
+Repositorio migrado a https://gitlab.com/fandres323/pinguino_SMD-4550
+
+
+# Pinguino SMD 4550
 
 PCB in surface mount of the Pinguino board based on the microcontroller PIC18F4550 
 ![Pinguino_SMD-4550](/images/Pinguino_SMD-4550.jpg)
